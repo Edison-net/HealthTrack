@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Track kids</title>
+    <link rel="stylesheet" type="text/css" href="Nova_pasta/style3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+  <nav id="menu">
+    <ul>
+        <li><a href="dashbord.html">Home</a></li>
+        <li><a href="Peso.html">Adicionar Peso</a></li>
+        <li><a href="Imc.html">Tabela de IMC</a></li>
+        <li><a href="#">Lista de Dietas</a></li>
+        <li><a href="#">Lista de Exercicios</a></li>
+        <li><a href="login.html">Sair</a></li>     
+    </ul>
+</nav>
+    <div id="peso-container">
+        <h1>Adicionar Peso</h1>
+        <form action="#">
+            <label for="number">Adicionar Peso:</label>
+            <input type="number" name="Peso" id="peso" autocomplete="off">
+            <input type="submit" value="salvar">
+        </form>   
+    </div>
+
+    <div id="table">
+        <h1>Pesos Adicionados</h1>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Add</th>
+                <th scope="col">Peso</th>
+                <th scope="col">Data</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>65kg</td>
+                <td>20/06</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>60kg</td>
+                <td>25/06</td>
+              </tr>
+              <tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>59kg</td>
+                  <td>25/07</td>
+                  </tr>
+            </tbody>
+          </table>
+          <input type="submit" value="Editar">
+    </div>
+</body>
+</html>
